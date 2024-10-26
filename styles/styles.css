@@ -1,0 +1,120 @@
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-evenly;
+}
+
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 1px;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+h1 {
+    color: rgb(129, 16, 129);
+    padding: 3rem;
+<<<<<<< HEAD
+    position: ;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+=======
+    position: relative;
+}
+
+main {
+    max-width: 640px;
+>>>>>>> f1edd6e (on)
+}
+
+main img {
+    width: 150px;
+    height: auto;
+    border: .5px solid rgb(10, 10, 10);
+    padding: 1px;
+<<<<<<< HEAD
+    box-shadow: 0 0 30px rgb(149, 134, 155);    display: flex;
+    float: right;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+=======
+    box-shadow: 0 0 30px rgb(149, 134, 155);
+    float: right;
+    margin: 0 0 2rem 2rem;
+}
+
+aside {
+    width: 20em;
+   text-align: center;
+   position: relative;
+>>>>>>> f1edd6e (on)
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+aside h2 {
+<<<<<<< HEAD
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+=======
+    position: absolute;
+>>>>>>> f1edd6e (on)
+    top: 25px;
+    left: 115px;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+/* class selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(139, 124, 139);
+    padding: 1.5em;
+    background-color: #c1bbc7;
+    color: #000;
+}
+<<<<<<< HEAD
+=======
+
+indent {
+    padding-left: 5rem;
+}
+>>>>>>> f1edd6e (on)

@@ -1,0 +1,28 @@
+Logo:
+
+https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/Picture1.jpg
+
+
+https://coolors.co/palette/353535-3c6e71-ffffff-d9d9d9-284b63
+
+primary-color: 3C6E71;
+secondary-color: D9D9D9;
+accent1-color: 353535;
+accent2-color: 284B63;
+
+<link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Kanit&family=Oswald:wght@200..700&display=swap" rel="stylesheets">
+
+heading {
+heading-font: kanit;
+}
+
+body {
+    font-family: "Kanit", system-ui;
+    font-weight: 400;
+    text-font: kanit;
+}
+
+h1 {
+    font-weight 100;
+    text-font: kanit;
+}
