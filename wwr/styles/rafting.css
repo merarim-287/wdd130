@@ -277,7 +277,7 @@ map {
   gap: 1vw;
   padding: 3vw;
   background-color:#6DFF33;
-  border: .3rem solid black;
+  border: .3rem solid black; 
 }
 
 .row-container img {
