@@ -6,7 +6,7 @@
 }
   
 body {
-  background-color:#ccc;
+  background-color: white;
   font-family:Arial, Helvetica, sans-serif;
 }
   
@@ -33,20 +33,18 @@ header {
 }
    
 header img { 
-  max-width: 100%vw;
+  max-width: 100;
   height: auto;
 }
   
 .navigation {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1px;
-  padding-left: 15vw;
-  padding-top: 16px;
-  padding-bottom: o;
-  gap: 1rem;
+  align-items: space-between;
+  justify-content: center;
+  padding: 0 30vw 0 22vw;
+  gap: .05rem;
   font-size: 2rem;
+  margin-bottom: ;
 }
   
 .nav-button {
@@ -81,7 +79,7 @@ header img {
   width: 100%;
   height: auto;
   padding-top: 1rem;
-  margin-bottom: 0 auto;
+  margin-bottom: 1vw;
 }
   
 .hero h1 {
@@ -155,10 +153,17 @@ header img {
   padding: 5rem;
   padding-left: 0;
   margin-left: 0;
+  margin-top: 5vw;
   color: white;
   background-color:#0000FF;
   width: 100%;
   border: .6vw solid black;
+}
+
+.nav .reservation {
+  display: flex;
+  justify-content: center;
+  margin: 5vw 0 5vw 05vw;
 }
 
 .box-container {
@@ -178,9 +183,16 @@ header img {
   color:#000000;
 }
 
+.image-row img {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  border: thin solid black;
+}
+
 .box-container .image-row figcaption {
   width: 100%;
-  background-color: gray;
+  background-color: solid blue;
   opacity: 0.9;
   font-size: 2rem;
   padding: 2px;
@@ -193,13 +205,14 @@ header img {
   padding: 3vw;
   background-color:var(--accent2-color);
   border: .2rem solid black;
+  margin-top: 8vw;
 }
 
 .row-container img {
   max-width: auto;
   border: .3vw solid rgb(10, 10, 10);
   margin-right: 2vw;
-  margin-lelf: 2vw;
+  margin-left: 2vw;
 }
 
 .row-container figcaption {
@@ -219,9 +232,10 @@ header img {
 .side-image {
   max-width: 45%;
   height: auto;
-  margin-left: 2rem;
+  margin-left: 33rem;
   padding: 0;
-  margin-top: -35vw;
+  margin-top: -20rem;
+  margin-bottom: 7vw;
   border: .35rem solid rgb(15, 14, 14);
 }
 
