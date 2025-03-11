@@ -24,3 +24,17 @@ img {
 p {
     padding: 10px;
 }
+
+main{
+    max-width: 840px;
+}
+
+aside {
+    width:auto;
+    margin:2rem;
+    border:1px solid black;
+    padding:2rem;
+    background-color:hsla(200,0%,0%,.7);
+    color:white;
+    text-align: center;
+}
