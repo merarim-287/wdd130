@@ -45,6 +45,10 @@ aside img {
     height: auto;
 }
 
+p {
+    padding: 0;
+}
+
 footer {
     margin-top: 3rem;
     border-top: 1.5px solid black;
