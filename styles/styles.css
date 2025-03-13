@@ -13,11 +13,11 @@ h1 {
     color: darkblue;
 }
 
-main p {
+main {
     padding: 2rem;
 }
 
-main {
+main p {
     max-width: 840px;
 }
 
