@@ -13,16 +13,12 @@ h1 {
     color: darkblue;
 }
 
-main {
-    padding: 2rem;
-}
-
-main p {
+main{
     max-width: 840px;
 }
 
 main img {
-    max-width: 840px;
+    width: 150px;
     height: auto;
     padding: 2px;
     border: 1px solid black;
