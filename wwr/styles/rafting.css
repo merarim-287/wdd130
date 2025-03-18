@@ -1,0 +1,13 @@
+:root {
+    --primary-color: BEEE62;
+    --secondary-color: 3D348B;
+    --accent1-color: 201C4A;
+    --accent2-color: 066C31;
+    --font-family: "DM Serif Text", serif;
+    --font-family: "Flavors", cursive;
+    --font-weight: 400;
+}
+
+body {
+    color: var(--primary-color);
+}
