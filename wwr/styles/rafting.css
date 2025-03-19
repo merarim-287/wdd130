@@ -1,13 +1,23 @@
 :root {
-    --primary-color: BEEE62;
-    --secondary-color: 3D348B;
-    --accent1-color: 201C4A;
-    --accent2-color: 066C31;
-    --font-family: "DM Serif Text", serif;
-    --font-family: "Flavors", cursive;
+    --primary-color: #BEEE62;
+    --secondary-color: #3D348B;
+    --accent1-color: #201C4A;
+    --accent2-color: #066C31;
+    --font1-family: "DM Serif Text", serif;
+    --font2-family: "Flavors", cursive;
     --font-weight: 400;
 }
 
 body {
     color: var(--primary-color);
+    font-family: var(--font1-family);
+    font-weight: 300;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 10px;
 }
