@@ -119,6 +119,6 @@ footer p {
 .sociallinks  a {
     display: flex;
     justify-content: space-evenly;
-    max-width: 100px;
+    max-width: 90px;
     height: auto;
 }
