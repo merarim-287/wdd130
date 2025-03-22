@@ -83,17 +83,17 @@ article {
 
 article img {
     float: right;
-    max-width: 12rem;
+    max-width: 10rem;
     height: auto;
     margin: 4rem 1rem 0 3rem;
 }
 
 article p {
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     font-family: var(--font1-family);
     font-weight: 100;
-    padding: 2rem;
+    padding: 3rem;
     background-color: var(--secondary-color);
 }
 
