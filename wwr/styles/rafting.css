@@ -8,30 +8,34 @@
 }
 
 header {
-    display: flex;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
     width: auto;
-    align-items: center;
     color: white;
     background-color: var(--secondary-color);
-    padding: 4rem;
+    padding: 1rem;
 }
 
-header a {
+.logo-box img {
+    margin: 1rem;
+    height: auto;
+    background-color: white;
+}
+
+.nav-box a {
     text-decoration: none;
 }
 
-a { 
+.nav-box a { 
+    display: flex;
+    justify-content: center;
+    align-items: row;
     color: white;
     font-size: 3rem;
     font-family: var(--font2-family);
     font-weight: 400;
-    text-align: center;
     padding: 1rem;
-    margin-left: 6rem;
-}
-
-div {
-    display: flex;
 }
 
 .hero {
