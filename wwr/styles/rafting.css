@@ -29,13 +29,13 @@ header {
 
 .nav-box a { 
     display: flex;
-    justify-content: center;
-    align-items: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     color: white;
     font-size: 3rem;
     font-family: var(--font2-family);
     font-weight: 400;
-    padding: 1rem;
 }
 
 .hero {
