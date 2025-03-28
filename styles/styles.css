@@ -11,6 +11,10 @@
     --font-size: 1rem;
 }
 
+header, footer {
+    max-width: 
+}
+
 nav {
     background-color: var(--color);
     padding: 10px;
