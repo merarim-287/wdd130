@@ -10,28 +10,26 @@
 header {
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: 120px 1fr 1fr;
+    gap: 5px;
     width: auto;
     color: white;
     background-color: var(--secondary-color);
-    padding: 1rem;
+    padding: 5px;
 }
 
 .logo-box img {
     margin: 1rem;
     height: auto;
-    background-color: white;
 }
 
-.nav-box a {
+div .nav-box a {
+    display: flex;
     text-decoration: none;
 }
 
-.nav-box a { 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+div .nav-box a { 
+    justify-content: space-between;
+    text-align:right;
     color: white;
     font-size: 3rem;
     font-family: var(--font2-family);
