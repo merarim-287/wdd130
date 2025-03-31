@@ -8,32 +8,39 @@
 }
 
 header {
-    margin: 1rem auto;
     display: grid;
-    gap: 5px;
-    width: auto;
-    color: white;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-gap: 20px;
+    width: 100%;
     background-color: var(--secondary-color);
-    padding: 5px;
+}
+
+header .nav-box {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.flex-nav-box { 
+    display: flex;
+    justify-content: space-around;
+    flex-direction:row;
+}
+   
+.flex-nav-box a {
+    font-size: 3rem;
+    font-family: var(--font2-family);
+    font-weight: 400;
+    color: white;
+}
+
+.flex-nav-box a {
+    text-decoration: none;
 }
 
 .logo-box img {
     margin: 1rem;
     height: auto;
-}
-
-div .nav-box a {
-    display: flex;
-    text-decoration: none;
-}
-
-div .nav-box a { 
-    justify-content: space-between;
-    text-align:right;
-    color: white;
-    font-size: 3rem;
-    font-family: var(--font2-family);
-    font-weight: 400;
 }
 
 .hero {
@@ -100,14 +107,25 @@ article p {
     background-color: var(--secondary-color);
 }
 
+section h2 {
+    width: auto;
+}
+
 section p {
+    float: left;
     color: black;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 200;
     background-color: var(--accent1-color);
     border: 1.5px solid black;
     width: auto;
-    padding: 2rem;
+}
+
+.img {
+    margin-top: -10rem;
+    margin-right: 20rem;
+    width: 300px;
+    height: auto;
 }
 
 footer p {
