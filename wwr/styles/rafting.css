@@ -14,17 +14,16 @@ header {
     grid-gap: 20px;
     width: 100%;
     background-color: var(--secondary-color);
-}
-
-header .nav-box {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 40px;
+    transition: 0.3s ease;
+    border: thin solid black;
 }
 
 .flex-nav-box { 
     display: flex;
     justify-content: space-around;
-    flex-direction:row;
+    gap: 3rem;
+    align-items: row;
+    width: 100%;
 }
    
 .flex-nav-box a {
@@ -32,15 +31,20 @@ header .nav-box {
     font-family: var(--font2-family);
     font-weight: 400;
     color: white;
+    padding: 4rem;
+    transition: color 0.3s ease;
 }
 
 .flex-nav-box a {
     text-decoration: none;
 }
 
-.logo-box img {
-    margin: 1rem;
-    height: auto;
+header:hover {
+    background-color: var(--primary-color);
+}
+
+.flex-nav-box a:hover {
+    color: rgb(157, 162, 158);
 }
 
 .hero {
@@ -68,20 +72,6 @@ h1 {
     padding: 1.5rem;
 }
 
-h2 {
-    padding: 1rem;
-    font-size: 3rem;
-    font-family: var(--font1-family);
-    font-weight: 400;
-    color: white;
-    border: 2px solid black;
-    background-color: var(--accent2-color);
-}
-
-h2 {
-    text-align: center;
-}
-
 article {
     position: absolute;
     top: 30rem;
@@ -107,25 +97,75 @@ article p {
     background-color: var(--secondary-color);
 }
 
-section h2 {
+.history {
+    display: flex;
+    flex-direction: row;
     width: auto;
-}
-
-section p {
-    float: left;
+    padding: 1rem;
+    margin-top: 4rem;
+    gap: 20px;
     color: black;
-    font-size: 1.5rem;
-    font-weight: 200;
-    background-color: var(--accent1-color);
-    border: 1.5px solid black;
-    width: auto;
+    background-color: var(--secondary-color);
 }
 
-.img {
-    margin-top: -10rem;
-    margin-right: 20rem;
-    width: 300px;
+.history h2 {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    margin-top: 5px;
+    font-size: 40px;
+    color: rgb(219, 209, 209);
+}
+
+.history .left-paragraph, .right-paragraph {
+    flex: 1;
+    text-align: justify;
+    margin: 5rem 3rem 2rem 3rem;
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(222, 214, 214);
+}
+
+.history img {
+    width: 200px;
     height: auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    border: 1px solid rgb(203, 196, 196);
+}
+
+.adventures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--primary-color);
+    margin-top: 4rem;
+    padding: 4rem;
+}
+
+.adventures h2 {
+    position: absolute;
+    left: 38%;
+    color: white;
+    font-size: 40px;
+    margin-top: 5px;
+}
+
+.adventures figure {
+    margin: 0;
+    text-align: center;
+}
+
+.adventures figure img {
+    max-width: 150px;
+    height: auto;
+    margin: 0;
+}
+
+.adventures figcaption {
+    color: white;
+    font-size: 10px;
 }
 
 footer p {
