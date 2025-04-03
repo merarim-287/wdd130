@@ -22,7 +22,7 @@ header {
     display: flex;
     justify-content: space-around;
     gap: 3rem;
-    align-items: row;
+    align-items: center;
     width: 100%;
 }
    
@@ -135,37 +135,49 @@ article p {
 }
 
 .adventures {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     background-color: var(--primary-color);
     margin-top: 4rem;
-    padding: 4rem;
+    padding: 4rem 0 1rem 1rem;
 }
 
 .adventures h2 {
     position: absolute;
-    left: 38%;
+    left: 45%;
+    top: -3rem;
+    transform: translate(-50%);
     color: white;
-    font-size: 40px;
-    margin-top: 5px;
+    font-size: 3rem;
+    margin: 4rem;
 }
 
 .adventures figure {
     margin: 0;
     text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 4.5rem;
 }
 
 .adventures figure img {
-    max-width: 150px;
-    height: auto;
-    margin: 0;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 2px;
+    border: 2px solid rgb(177, 171, 171);
+    padding: 0;
 }
 
 .adventures figcaption {
     color: white;
-    font-size: 10px;
+    font-size: 15px;
+    margin-bottom: 1rem;
 }
 
 footer p {
