@@ -27,12 +27,12 @@ header {
 }
    
 .flex-nav-box a {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-family: var(--font2-family);
-    font-weight: 400;
+    font-weight: 500;
     color: white;
-    padding: 4rem;
-    transition: transform 0.3s ease, color 0.3 ease;
+    padding: 2rem;
+    transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .flex-nav-box a {
@@ -44,8 +44,8 @@ header:hover {
 }
 
 .flex-nav-box a:hover {
+    transform: scale(0.8);
     color: rgb(8, 8, 8);
-    transform: scale(0.5);
 }
 
 .hero {
@@ -113,7 +113,7 @@ article p {
 .history h2 {
     position: absolute;
     left: 50%;
-    transform: translatex(-50%);
+    transform: translateX(-50%);
     margin-top: 5px;
     font-size: 40px;
     color: rgb(219, 209, 209);
@@ -139,7 +139,7 @@ article p {
 .adventures {
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
     background-color: var(--secondary-color);
@@ -151,7 +151,7 @@ article p {
     position: absolute;
     left: 45%;
     top: -3rem;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     color: rgb(209, 203, 203);
     font-size: 3rem;
     margin: 4rem;
@@ -165,9 +165,6 @@ article p {
 }
 
 .adventures figure img {
-    display: flex;
-    flex-flow: column;
-    padding: 5px;
     max-width: 200px;
     height: 300px;
     object-fit: cover;
@@ -198,7 +195,7 @@ footer p {
     font-size: 15px;
     font-family: var(--font1-family);
     font-weight: 400;
-    margin-left: 40%;
+    margin-left: 35%;
 }
 
 footer .sociallinks {
