@@ -45,6 +45,7 @@ header:hover {
 
 .flex-nav-box a:hover {
     color: rgb(8, 8, 8);
+    transform: scale(1.5);
 }
 
 .hero {
@@ -198,14 +199,21 @@ footer p {
     font-weight: 400;
 }
 
-.sociallinks a {
-    position: absolute;
-    left: 60%;
-    top: 1rem;
-    bottom: auto;
-    justify-content: space-between;
-    align-items: center;   
-    max-width: 60px;
-    height: auto;
-    margin: 0;
+footer .sociallinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;
+}
+
+footer .sociallinks a {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: cover;
+    transition: transform 0.3s ease;
+}
+
+footer .sociallinks a:hover {
+    transform: scale(1.5);
 }
