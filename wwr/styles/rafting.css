@@ -99,6 +99,42 @@ article p {
     background-color: var(--secondary-color);
 }
 
+.information {
+    position: relative;
+    margin-top: 3rem;
+    padding: 2rem;
+    color: black;
+    background-color:antiquewhite;
+    width: auto;
+}
+
+.information h2 {
+    position: absolute;
+    font-size: 2rem;
+    color: black;
+    font-weight: 400;
+    font-family: var(--font1-family);
+}
+
+.information a {
+    justify-content: center;
+    align-items: column;
+    font-size: 2rem;
+    color: black;
+    font-weight: 400;
+    font-family: var(--font1-family);
+    padding: 10rem;
+    text-decoration: none;
+}
+
+.map {
+    float: right;
+    max-width: 12rem;
+    height: auto;
+    margin: 2rem 1rem 0 3rem;
+    padding: 3rem;
+}
+
 .history {
     display: flex;
     flex-direction: row;
@@ -178,6 +214,8 @@ article p {
     font-size: 15px;
     margin-bottom: 1rem;
 }
+
+
 
 footer {
     position: relative;
