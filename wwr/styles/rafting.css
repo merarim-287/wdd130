@@ -101,8 +101,10 @@ article p {
 
 .information {
     position: relative;
-    margin-top: 3rem;
-    padding: 2rem;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
     color: black;
     background-color:antiquewhite;
     width: auto;
@@ -110,29 +112,32 @@ article p {
 
 .information h2 {
     position: absolute;
+    align-items: center;
     font-size: 2rem;
     color: black;
     font-weight: 400;
     font-family: var(--font1-family);
+    padding: 0;
 }
 
 .information a {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: column;
+    align-items: center;
     font-size: 2rem;
     color: black;
     font-weight: 400;
     font-family: var(--font1-family);
-    padding: 10rem;
+    padding-top: 2rem;
     text-decoration: none;
 }
 
 .map {
-    float: right;
-    max-width: 12rem;
+    max-width: 15rem;
     height: auto;
-    margin: 2rem 1rem 0 3rem;
-    padding: 3rem;
+    margin: 3rem;
+    padding: 0;
 }
 
 .history {
