@@ -109,6 +109,7 @@ article p {
     background-color:var(--accent2-color);
     width: auto;
     margin-top: 3rem;
+    border: 1px solid black;
 }
 
 .information h2 {
@@ -118,7 +119,7 @@ article p {
     transform: translateX(-50%);
     color: rgb(209, 203, 203);
     font-size: 3rem;
-    margin: 4rem;
+    margin: 6rem;
 }
 
 .information li {
@@ -136,7 +137,6 @@ article p {
     max-width: 500px;
     height: auto;
     margin: 5rem 7rem 0 6rem;
-    padding: 0;
 }
 
 .history {
@@ -228,6 +228,7 @@ article p {
     background-color: var(--accent2-color);
     margin-top: 3rem;
     padding: 4rem 0 1rem 1rem;
+    border: 1px solid gray;
 }
 
 .profiles h2 {
@@ -268,17 +269,20 @@ footer {
     justify-content: space-between; 
     padding: 20px;
     width: auto;
-    background-color: var(--accent2-color);
+    background-color: var(--secondary-color);
     margin-top: 3rem;
+    border: 1.5px solid black;
+    transition: 0.3s ease;
 }
     
 footer p {
-    color: rgb(237, 231, 231);
+    color: rgb(190, 189, 207);
     text-align: center;
     font-size: 15px;
     font-family: var(--font1-family);
     font-weight: 400;
     margin-left: 35%;
+    transition: 0.3s ease;
 }
 
 footer .sociallinks {
@@ -298,4 +302,12 @@ footer .sociallinks a {
 
 footer .sociallinks a:hover {
     transform: scale(1.5);
+}
+
+footer:hover {
+    background-color: var(--primary-color);
+}
+
+footer p:hover {
+    color: white;
 }
