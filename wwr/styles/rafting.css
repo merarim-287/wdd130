@@ -106,8 +106,9 @@ article p {
     align-items: center;
     padding: 5rem;
     color: black;
-    background-color:antiquewhite;
+    background-color:var(--accent2-color);
     width: auto;
+    margin-top: 3rem;
 }
 
 .information h2 {
@@ -117,10 +118,10 @@ article p {
     color: black;
     font-weight: 400;
     font-family: var(--font1-family);
-    padding: 0;
+    margin-top: 1rem;
 }
 
-.information a {
+.information li {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -134,9 +135,9 @@ article p {
 }
 
 .map {
-    max-width: 15rem;
+    max-width: 500px;
     height: auto;
-    margin: 3rem;
+    margin: 0 3rem 0;
     padding: 0;
 }
 
@@ -220,7 +221,48 @@ article p {
     margin-bottom: 1rem;
 }
 
+.profiles {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--accent2-color);
+    margin-top: 3rem;
+    padding: 4rem 0 1rem 1rem;
+}
 
+.profiles h2 {
+    position: absolute;
+    left: 45%;
+    top: -3rem;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 3rem;
+    margin: 4rem;
+}
+
+.profiles figure {
+    margin: 0;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 4.5rem;
+}
+
+.profiles figure img {
+    max-width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 2px;
+    border: 2px solid rgb(177, 171, 171);
+    padding: 0;
+}
+
+.profiles figcaption {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
 
 footer {
     position: relative;
