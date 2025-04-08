@@ -61,6 +61,29 @@
                 </figure>
             </div>
         </section>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name: <input type="text" id="fullname" name="fullname"></label>
+                <label for="useremail">Email: <input type="email" id="useremail" name="useremail"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Purpose of Message</legend>
+                <select id="option" name="option">
+                    <input type="radio" id="option" name="option" value="option">
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Reservation Question">Reservation Question</option>
+                    <option value="Website Suggestion">Website Suggestion</option>
+                </select>
+                <label for="Message">Message</label>
+                <textarea id="Message" name="Message" rows="5" placeholder="Hello my name is..."></textarea>
+            </fieldset>
+            <fieldset>
+                <input type="checkbok" id="subscription" name="subscription" value="subscription">
+                <label for="subscription">Please subscribe me to the monthly newsletter.</label>
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
         
     </main>
     <footer>
