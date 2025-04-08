@@ -71,10 +71,12 @@
                 </fieldset>
                 <fieldset>
                 <legend>Purpose of Message</legend>
-                <select type="radio" id="option" name="option" value="option">
-                    <option value="General Inquiry">General Inquiry</option>
-                    <option value="Reservation Question">Reservation Question</option>
-                    <option value="Website Suggestion">Website Suggestion</option>
+                <input type="radio" id="general" name="contact" value="General Inquiry">
+                <label>General Inquiry</label>
+                <input type="radio" id="reservation" name="contact" value="Reservation Question">
+                <label>Reservation Question</label>
+                <input type="radio" id="Website" name="contact" value="Website Suggestion">
+                <label>Website Suggestion</label>
                 </select>
                 <label for="Message">Your Message:</label>
                 <textarea id="Message" name="Message" rows="5" placeholder="Hello my name is..."></textarea>

@@ -323,8 +323,9 @@ input[type="message"] {
 
 fieldset {
     display: grid;
-    grid-template-columns: auto; 
+    grid-template-columns: auto 1fr; 
     align-items: center;
+    grid-gap: 0.5rem;
 }
 
 input[type="checkbox"] {
@@ -333,7 +334,9 @@ input[type="checkbox"] {
 
 
 input[type="submit"]{
+    width: auto;
     background-color: var(--secondary-color);
+    color: white;
 }
 
 input[type="submit"]:hover {
