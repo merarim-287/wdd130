@@ -265,8 +265,8 @@ article p {
 
 form {
     display: grid;
-    width: auto;
-    margin:  0 auto;
+    width: 50%;
+    margin:  3rem 0 3rem 0;
     padding: 1rem;
     border: 1px solid rgb(0 0 0 / 0.1); 
     border-radius: 0.5rem;
@@ -301,13 +301,7 @@ input, select, textarea {
     font-size: 1.1rem;
 }
 
-input[type="checkbox"] {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-input[type="option"] {
+input[type="radio"] {
     grid-template-columns: 3fr 1fr;
     margin: 0.5rem 0;
     width: auto;
@@ -316,7 +310,7 @@ input[type="option"] {
     border-radius: 4px;
 }
 
-input[message] {
+input[type="message"] {
     width: 600px;
     height: 150px;
     padding: 12px 20px;
@@ -327,12 +321,23 @@ input[message] {
     resize: none;
 }
 
-.submit {
-    background-color: blue;
+fieldset {
+    display: grid;
+    grid-template-columns: auto; 
+    align-items: center;
 }
 
-.submit:hover {
-    background-color: red;
+input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+
+input[type="submit"]{
+    background-color: var(--accent1-color);
+}
+
+input[type="submit"]:hover {
+    background-color: var(--primary-color);
 }
 
 footer {
