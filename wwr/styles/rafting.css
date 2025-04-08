@@ -263,15 +263,53 @@ article p {
     margin-bottom: 1rem;
 }
 
-.form {
+form {
+    display: grid;
     width: auto;
-    border: 2px solid red; 
+    margin:  0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1); 
+    border-radius: 0.5rem;
+    background-color: #eee;
 }
 
-input[type=text] {
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1pxd solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
 }
 
-select {
+legend {
+    padding: 0.5rem;
+    color: black;
+    font-size: 1.3rem;
+}
+
+label, input, button, select, textarea {
+    font-size: 1rem;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input[type="option"] {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
     width: auto;
     padding: 16px 20px;
     border: none;
@@ -287,6 +325,14 @@ input[message] {
     border-radius: 4px;
     background-color: #f8f8f8;
     resize: none;
+}
+
+.submit {
+    background-color: blue;
+}
+
+.submit:hover {
+    background-color: red;
 }
 
 footer {
