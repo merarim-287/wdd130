@@ -228,7 +228,7 @@ article p {
     background-color: var(--accent2-color);
     margin-top: 3rem;
     padding: 4rem 0 1rem 1rem;
-    border: 1px solid gray;
+    border: 1.5px solid rgb(10, 10, 10);
 }
 
 .profiles h2 {
@@ -254,7 +254,12 @@ article p {
     object-fit: cover;
     margin-bottom: 2px;
     border: 2px solid rgb(177, 171, 171);
+    opacity: 0.5;
     padding: 0;
+}
+
+.profiles figure img:hover {
+    opacity: 1.0;i
 }
 
 .profiles figcaption {
