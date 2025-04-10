@@ -65,13 +65,43 @@ h1 {
     left: 0;
     right: 0;
     color: white;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     opacity: .8;
     font-size: 5rem;
     font-family: var(--font1-family);
     font-weight: 100;
     text-align: center;
     padding: 1.5rem;
+}
+
+.action {
+    position: absolute;
+    top: 15rem;
+    left: 0;
+    right: 0;
+    color: gray;
+    background-color: white;
+    opacity: .5;
+    font-size: 4rem;
+    transition: font-size 0.3s ease;
+    font-family: var(--font1-family);
+    font-weight: 100;
+    text-align: center;
+    padding: 3rem;
+    isolation: isolate;
+}
+
+.action a, nav {
+    color: black;
+}
+
+.action nav:hover {
+    font-size: 7rem;
+    color: blue;
+}
+
+.action:hover {
+    background-color: var( )
 }
 
 article {
@@ -223,6 +253,27 @@ article p {
     margin-bottom: 1rem;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container figure img {
+    grid-column: 2;
+    max-width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 2px;
+    border: 2px solid rgb(177, 171, 171);
+    padding: 0;
+}
+
+.container figcaption {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+
 .profiles {
     position: relative;
     display: flex;
@@ -270,22 +321,6 @@ article p {
     color: white;
     font-size: 15px;
     margin-bottom: 1rem;
-}
-
-.action a, p {
-    font-size: 2rem;
-    font-weight: 400;
-    text-decoration: none !important;
-}
-
-.action p {
-    color: black;
-}
-
-.action a {
-    color: var(--accent1-color);
-    font-weight: 600;
-    -webkit-text-stroke: .5px black;
 }
 
 form {
