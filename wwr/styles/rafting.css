@@ -253,26 +253,6 @@ article p {
     margin-bottom: 1rem;
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.container figure img {
-    grid-column: 2;
-    max-width: 200px;
-    height: 300px;
-    object-fit: cover;
-    margin-bottom: 2px;
-    border: 2px solid rgb(177, 171, 171);
-    padding: 0;
-}
-
-.container figcaption {
-    color: white;
-    font-size: 15px;
-    margin-bottom: 1rem;
-}
 
 .profiles {
     position: relative;
@@ -323,7 +303,38 @@ article p {
     margin-bottom: 1rem;
 }
 
-form {
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container figure img {
+    position: absolute;
+    max-width: 100px;
+    max-height: 150px;
+}
+
+div .signup {
+    position: relative;
+    width: 400px;
+    height: auto;
+    opacity: 0.8;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.signup legend {
+    color: white;
+    font-size: 1rem;
+    background-image: 
+}
+
+.signup label {
+    color: white;
+}
+
+form .contact {
     display: grid;
     width: 50%;
     margin:  3rem 0 3rem 0;
@@ -333,7 +344,7 @@ form {
     background-color: #eee;
 }
 
-fieldset {
+form .contact fieldset {
     display: grid;
     grid-gap: .5rem;
     margin: 1rem;
@@ -341,17 +352,17 @@ fieldset {
     padding: 1rem;
 }
 
-legend {
+form .contact legend {
     padding: 0.5rem;
     color: black;
     font-size: 1.3rem;
 }
 
-label, input, button, select, textarea {
+form .contact label, input, button, select, textarea {
     font-size: 1rem;
 }
 
-label {
+form .contact label {
     text-align: left;
     padding-right: 1rem;
 }
@@ -381,7 +392,7 @@ input[type="message"] {
     resize: none;
 }
 
-fieldset {
+form .contact fieldset {
     display: grid;
     grid-template-columns: auto 1fr; 
     align-items: center;
