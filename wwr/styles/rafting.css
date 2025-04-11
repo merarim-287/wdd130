@@ -337,7 +337,7 @@ article p {
     background-color: black;
     color: black;
     box-sizing: border-box;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 1rem;
     align-items: center;
 }
@@ -363,15 +363,17 @@ article p {
     border: none;
 }
 
-.container-form legend {
+.container legend {
     position: absolute;
-    top: 5rem;
+    top: 6rem;
+    left: 33%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0;
+    padding-top: -1rem;
     width: auto;
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 600;
     color: black;
     margin: 0;
 }
@@ -380,15 +382,21 @@ article p {
     width: 100%;
     height: auto;
     display: block;
+    padding: 1rem;
 }
 
 .container label {
     color: black;
     font-size: 1.5rem;
     align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    padding-right: 1rem;
 }
 
 .contact {
+    display: grid;
     justify-content: center;
     align-items: center; 
     border: 1px solid black;
@@ -396,7 +404,6 @@ article p {
 }
 
 .contact {
-    display: grid;
     width: 500px;
     margin: 0;
     padding: 0;
