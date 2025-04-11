@@ -305,7 +305,11 @@ article p {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+    align-items: start;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .container figure img {
@@ -316,22 +320,38 @@ article p {
 
 div .signup {
     position: relative;
+    display: grid;
     width: 400px;
     height: auto;
     opacity: 0.8;
-    color: white;
+    color: black;
     background-color: black;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.signup legend {
+div .signup fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+div .signup legend {
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    color: black;
+}
+
+div .signup label {
     color: white;
     font-size: 1rem;
-    background-image: 
-}
 
-.signup label {
-    color: white;
 }
 
 form .contact {
