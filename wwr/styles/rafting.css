@@ -7,14 +7,6 @@
     --font2-family: "Flavors", cursive;
 }
 
-.background {
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    border: 1px solid rgb(70, 69, 69);
-    opacity: 0.6;
-}
-
 header {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -24,6 +16,15 @@ header {
     background-color: var(--secondary-color);
     transition: 0.3s ease;
     border: 1.5px solid rgb(101, 100, 100);
+}
+
+.background {
+    position: relative;
+    display: flex;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    opacity: 0.6;
 }
 
 .flex-nav-box { 
@@ -86,6 +87,67 @@ h1 {
     text-align: center;
     padding: 1.5rem;
 }
+
+.grid-box {
+    position: absolute;
+    top: 5rem;
+    left: 10rem;
+    right: 10rem;
+    color: gray;
+    background-color: rgb();
+    opacity: 0.6;
+    font-size: 4rem;
+    transition: font-size 0.3s ease;
+    font-family: var(--font1-family);
+    font-weight: 100;
+    text-align: center;
+    isolation: isolate;
+}
+
+.grid-box nav {
+
+}
+
+table {
+    position: absolute;
+    top:50rem;
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    background-color: rgba(84, 104, 155, 0.8);
+    color: rgb(38, 39, 41);
+  }
+  
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  thead,
+  tfoot {
+    background-color: rgba(125, 96, 129, 0.8);
+  }
+  
+  th,
+  td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
 
 .action, .grid-nav {
     position: absolute;
@@ -274,47 +336,6 @@ article p {
     font-size: 15px;
     margin-bottom: 1rem;
 }
-
-table {
-    border-collapse: collapse;
-    border: 2px solid rgb(140 140 140);
-    font-family: sans-serif;
-    font-size: 0.8rem;
-    letter-spacing: 1px;
-  }
-  
-  caption {
-    caption-side: bottom;
-    padding: 10px;
-    font-weight: bold;
-  }
-  
-  thead,
-  tfoot {
-    background-color: rgb(228 240 245);
-  }
-  
-  th,
-  td {
-    border: 1px solid rgb(160 160 160);
-    padding: 8px 10px;
-  }
-  
-  td:last-of-type {
-    text-align: center;
-  }
-  
-  tbody > tr:nth-of-type(even) {
-    background-color: rgb(237 238 242);
-  }
-  
-  tfoot th {
-    text-align: right;
-  }
-  
-  tfoot td {
-    font-weight: bold;
-  }
 
 .profiles {
     position: relative;
