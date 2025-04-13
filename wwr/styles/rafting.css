@@ -7,6 +7,14 @@
     --font2-family: "Flavors", cursive;
 }
 
+.background {
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(70, 69, 69);
+    opacity: 0.6;
+}
+
 header {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -128,6 +136,16 @@ article p {
     padding: 5rem;
     background-color: var(--secondary-color);
 }
+
+.descriptive-box {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.descriptive-box {}
 
 .information {
     position: relative;
