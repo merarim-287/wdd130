@@ -1,10 +1,13 @@
 :root {
     --primary-color: #3D348B;
     --secondary-color: #201C4A;
-    --accent1-color: #BEEE62;
+    --accent1-color: rgba(125, 96, 129, 1.1);
     --accent2-color: #066C31;
     --font1-family: "DM Serif Text", serif;
     --font2-family: "Flavors", cursive;
+}
+content {
+    visibility: auto;
 }
 
 header {
@@ -90,11 +93,12 @@ h1 {
 
 .grid-box {
     position: absolute;
-    top: 5rem;
-    left: 10rem;
+    top: 65rem;
+    left: 18rem;
     right: 10rem;
-    color: gray;
-    background-color: rgb();
+    right: 10rem;
+    color: black;
+    background-color: white;
     opacity: 0.6;
     font-size: 4rem;
     transition: font-size 0.3s ease;
@@ -104,57 +108,63 @@ h1 {
     isolation: isolate;
 }
 
-.grid-box nav {
-
+.grid-box nav a {
+    color: var(--accent1-color);
+    text-decoration: none;
 }
+
+
 
 table {
     position: absolute;
-    top:50rem;
+    top: 20rem;
+    left: 10rem;
     border-collapse: collapse;
-    border: 2px solid rgb(140 140 140);
+    border: 2px solid black;
     font-family: sans-serif;
-    font-size: 0.8rem;
+    font-size: 1.6rem;
+    text-shadow: .5px .5px 1px rgb(12, 12, 12);
     letter-spacing: 1px;
-    background-color: rgba(84, 104, 155, 0.8);
-    color: rgb(38, 39, 41);
-  }
+    background-color: rgb(0, 0, 0, 0.6);
+    color: rgb(237, 233, 233);
+    box-shadow: 5px 5px 15px black;
+}
   
-  caption {
+caption {
     caption-side: bottom;
     padding: 10px;
     font-weight: bold;
+}
+  
+thead,
+tfoot {
+    background-color: rgba(125, 96, 129, 1.1);
   }
   
-  thead,
-  tfoot {
-    background-color: rgba(125, 96, 129, 0.8);
-  }
+th,
+td {
+    border: 3px solid black;
+    padding: 30px 5px;
+}
   
-  th,
-  td {
-    border: 1px solid rgb(160 160 160);
-    padding: 8px 10px;
-  }
-  
-  td:last-of-type {
+td:last-of-type {
     text-align: center;
-  }
+}
   
-  tfoot th {
+tfoot th {
     text-align: right;
-  }
+}
   
-  tfoot td {
+tfoot td {
     font-weight: bold;
-  }
+}
 
-.action, .grid-nav {
+action, grid-nav {
     position: absolute;
     top: 15rem;
     left: 5rem;
-    right: 5rem;
-    color: gray;
+    bottom: 5rem;
+    color: black;
     background-color: rgba(30, 30, 83, 0.7);
     font-size: 4rem;
     transition: font-size 0.3s ease;
