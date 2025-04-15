@@ -254,6 +254,43 @@ tfoot td {
     padding: 5rem;
 }
 
+.reservation-box {
+    position: absolute;
+    left: 20%;
+    top: 70rem;
+    width: 80%;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.reservation-box a {
+    font-size: 4rem;
+    font-weight: 600;
+    color: rgb(98, 95, 95);
+    text-shadow: 1px 1px 4px white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.reservation-box a:hover {
+    animation: lr 0.5s ease 2;
+    cursor:default;
+}
+
+@keyframes lr {
+    0%{transform:translateX(0)}
+    33%{transform:translateX(-15px)}
+    66%{transform:translateX(15px)}
+    100%{transform:translateX(0)}
+}
+
+
 .information {
     color: black;
     background-color: var(--primary-color);
