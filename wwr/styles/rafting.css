@@ -7,12 +7,8 @@
     --font2-family: "Flavors", cursive;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
 .wraper {
-    max-width: 1280px;
+    max-width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -28,7 +24,7 @@ header {
     transition: 0.3s ease;
     border: 1.5px solid rgb(101, 100, 100);
     margin: 0;
-    width: 100vw;
+    width: 100%;
 }
 
 .background img {
@@ -178,7 +174,8 @@ article p {
     background-color: var(--secondary-color);
 }
 
-.cards-container {
+.reservation-box {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -186,14 +183,14 @@ article p {
 table {
     grid-column: 1;
     position: absolute;
-    top:50rem;
     top: 20rem;
     left: 10rem;
-    border-collapse: collapse;
+    border-collapse: colapse;
+}
+
+table {
     border: 2px solid rgb(140 140 140);
-    border: 2px solid black;
     font-family: sans-serif;
-    font-size: 0.8rem;
     font-size: 1.6rem;
     text-shadow: .5px .5px 1px rgb(12, 12, 12);
     letter-spacing: 1px;
@@ -210,8 +207,8 @@ caption {
     font-weight: bold;
 }
 
-  thead,
-  tfoot {
+thead,
+tfoot {
     background-color: rgba(125, 96, 129, 0.8);
   }
 
@@ -242,8 +239,16 @@ tfoot td {
     font-weight: bold;
 }
 
-.cards-container article {
-    grid-column: 2'
+.card-2 article img {
+    position: absolute;
+    flex-direction: column;
+    grid-column: 2;
+    width: 200px;
+    height: auto;
+    padding: 0;
+    margin: 2rem;
+    border: 1px solid black;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
 }
 
 .information {
@@ -273,7 +278,7 @@ tfoot td {
     font-size: 4rem;
     font-weight: 600;
     color: rgb(98, 95, 95);
-    text-shadow: 1px 1px 4px white;
+    text-shadow: 1px 2px 4px white;
     display: inline-block;
     text-decoration: none;
 }
