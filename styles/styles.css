@@ -66,7 +66,7 @@ aside {
 
 h2 {
     position: absolute;
-    top: 42rem;
+    top: 46rem;
     left: 7rem;
     font-size: 25px;
     text-shadow: 1px 1px 3px gray;
@@ -84,7 +84,7 @@ aside img {
 aside p {
     font-size: 20px;
     font-weight: 400;
-    margin: 3rem 1rem 1rem;
+    margin: 5rem 1rem 1rem;
 }
 
 main img {
