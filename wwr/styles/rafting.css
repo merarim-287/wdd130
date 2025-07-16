@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: var(--body-font);
+    font-family: var(--heading-font);
     color: var(--accent1-color);
 }
 
@@ -61,4 +61,14 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+}
+
+footer {
+    font-family: var(--body-font);
+    font-weight: 600;
+}
+
+.socialmedia {
+    max-width: 50px;
+    height: auto;
 }
