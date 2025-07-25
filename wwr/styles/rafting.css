@@ -113,7 +113,30 @@ h1 {
     font-size: 20px;
 }
 
+.history {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
 
+.history h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.history-container img {
+    width: 15rem;
+    height: auto;
+}
+
+.history-container p {
+    flex: 1 50px 1;
+    font-size: 1em;
+    line-height: 1;
+}
 
 footer {
     font-family: var(--body-font);
