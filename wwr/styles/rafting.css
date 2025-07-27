@@ -113,29 +113,39 @@ h1 {
     font-size: 20px;
 }
 
-.history {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-.history h2 {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 30px;
+.history-container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
 }
 
 .history-container img {
-    width: 15rem;
-    height: auto;
+  width: 300px;
 }
 
 .history-container p {
-    flex: 1 50px 1;
-    font-size: 1em;
-    line-height: 1;
+  flex: 1;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.adventures {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+figure {
+    margin: 10px;
+}
+
+figure img {
+    width: 80px;
+    height: auto;
+    display: block;
 }
 
 footer {
