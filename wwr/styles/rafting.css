@@ -160,11 +160,13 @@ figure img {
 footer {
     font-family: var(--body-font);
     font-weight: 600;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .socialmedia {
-    max-width: 50px;
-    height: auto;
+    background-color: white;
+    margin: 0;
 }
 
 .socialmedia a {
