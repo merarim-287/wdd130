@@ -145,8 +145,16 @@ h1 {
     border: 3px solid black;
 }
 
+.adventures h2 {
+    position: relative;
+    bottom: 8rem;
+    left:40%;
+    color: black;
+    white-space: nowrap;
+}
+
 figure {
-    margin: 10px;
+    margin: 2rem .5rem 1rem 0.5rem;
     background-color: white;  
 }
 
