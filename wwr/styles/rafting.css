@@ -45,7 +45,7 @@ nav {
     flex-wrap: wrap;
     gap: 20px;
     margin: 20px 0;
-    padding: 0 auto;
+    padding: 0 2rem;
     background-color: var(--secondary-color);
     color: black;
 }
