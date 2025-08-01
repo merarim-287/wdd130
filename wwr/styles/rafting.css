@@ -115,7 +115,7 @@ h1 {
     padding: 3rem;
 }
 
-.history-container {
+.history-container, .contact-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
@@ -124,16 +124,26 @@ h1 {
   margin-top: 0;
 }
 
-.history-container img {
+.history-container img, .map {
   width: 100%;
   height: auto;
   object-fit: cover;
   display: block;
 }
 
-.history-container p {
+.history-container p, .contact {
   font-size: 1.5rem;
   color: black;
+}
+
+.contact-container .contact a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.contact-container ul {
+    list-style: none;
 }
 
 .history-container h2 {
@@ -144,6 +154,8 @@ h1 {
     margin-top: 1rem;
     margin-left: 45%;
 }
+
+
 
 .adventures {
     display: flex; 
