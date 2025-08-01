@@ -73,6 +73,7 @@ nav a:hover {
 
 .hero {
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .hero img {
@@ -95,13 +96,12 @@ h1 {
 
 .hero article {
     position: relative;
-    bottom: 20rem;
+    margin-top: -18rem;
     background-color: var(--secondary-color);
     color: black;
     opacity: .8;
-    padding: 0;
+    padding: 2rem;
 }
-
 
 .hero article img {
     float: right;
@@ -121,7 +121,7 @@ h1 {
   gap: 1rem;
   padding: 1rem;
   background-color: #fff;
-  margin-top: 1rem;
+  margin-top: 0;
 }
 
 .history-container img {
@@ -137,9 +137,12 @@ h1 {
 }
 
 .history-container h2 {
-  grid-column: 1 / -1; 
-  font-size: 2rem;
-  margin-bottom: 1rem;
+    color: black;
+    grid-column: 1 / -1; 
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    margin-top: 1rem;
+    margin-left: 45%;
 }
 
 .adventures {
