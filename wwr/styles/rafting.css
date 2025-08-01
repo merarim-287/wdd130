@@ -124,11 +124,37 @@ h1 {
   margin-top: 0;
 }
 
-.history-container img, .map {
+.map {
+    max-width: 350px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 4px gray;
+    margin: 2rem auto;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.map iframe {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    display: block; 
+}
+
+.map:hover {
+    transform: scale(1.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.history-container img {
   width: 100%;
   height: auto;
   object-fit: cover;
   display: block;
+}
+
+.employees img {
+    border: 1px solid black;
 }
 
 .history-container p, .contact {
@@ -139,10 +165,12 @@ h1 {
 .contact-container .contact a {
     text-decoration: none;
     color: black;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 .contact-container ul {
+    margin: 2rem auto;
     list-style: none;
 }
 
@@ -155,8 +183,6 @@ h1 {
     margin-left: 45%;
 }
 
-
-
 .adventures {
     display: flex; 
     flex-direction: row;
@@ -166,7 +192,30 @@ h1 {
     border: 3px solid black;
 }
 
-.adventures h2 {
+.employees {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    background-color: var(--primary-color);
+    box-shadow: 2px 2px 4px gray;
+}
+
+.employees figure {
+    margin: 1rem;
+    flex: 1 1 200px; 
+    padding: 5px;
+    box-shadow: 1px 1px 2px gray;
+    border: 1px solid black;
+}
+
+.employees figure img {
+    margin: 0 auto;
+    display: block;
+}
+
+.adventures h2, .employees h2 {
     position: relative;
     bottom: 8rem;
     left:40%;
@@ -184,6 +233,45 @@ figure img {
     height: 200px;
     object-fit: cover;
     display: block;
+}
+
+form {
+    background-color: rgb(206, 204, 204); 
+    color: black;
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid black;
+    max-width: 500px;
+    box-shadow: 2px 2px 4px gray;
+}
+
+fieldset {
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+}
+
+legend {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: .75rem;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+button {
+    background-color: navy;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
 }
 
 footer {
