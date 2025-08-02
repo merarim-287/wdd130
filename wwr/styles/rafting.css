@@ -27,6 +27,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 1rem;
+    padding-top: 1.5rem;
 }
 
 h1, h2 {
@@ -45,9 +46,10 @@ nav {
     flex-wrap: wrap;
     gap: 20px;
     margin: 20px 0;
-    padding: 0 2rem;
+    padding: 2rem;
     background-color: var(--secondary-color);
     color: black;
+    border: 1px solid black;
 }
 
 nav img {
@@ -146,6 +148,11 @@ h1 {
     transition: transform 0.3s ease-in-out;
 }
 
+.map h2 {
+    color: black;
+    font-size: 25px;
+}
+
 .history-container img {
   width: 100%;
   height: auto;
@@ -153,7 +160,7 @@ h1 {
   display: block;
 }
 
-.employees img {
+.employees figure img {
     border: 1px solid black;
 }
 
@@ -198,29 +205,39 @@ h1 {
     gap: 2rem;
     flex-wrap: wrap;
     border: 1px solid black;
-    background-color: var(--primary-color);
+    background-color: white;
     box-shadow: 2px 2px 4px gray;
 }
 
 .employees figure {
-    margin: 1rem;
+    margin: 3rem 2rem 1rem 2rem;
     flex: 1 1 200px; 
     padding: 5px;
     box-shadow: 1px 1px 2px gray;
     border: 1px solid black;
+    background-color: var(--accent1-color);
+    color: white;
 }
 
 .employees figure img {
-    margin: 0 auto;
+    margin: 0;
     display: block;
 }
 
-.adventures h2, .employees h2 {
+.adventures h2{
     position: relative;
     bottom: 8rem;
     left:40%;
     color: black;
     white-space: nowrap;
+}
+
+.employees h2 {
+    position: relative;
+    left: 50%;
+    color: black;
+    margin-bottom: 1rem;
+    font-size: 30px
 }
 
 figure {
