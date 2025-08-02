@@ -284,6 +284,8 @@ input[type="radio"] {
 button {
     background-color: navy;
     color: white;
+    font-size: 25px;
+    padding: .5rem;
 }
 
 button:hover {
