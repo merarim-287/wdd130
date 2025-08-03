@@ -89,7 +89,8 @@ nav a:hover {
     width: 100%;
     margin: 0;
     overflow: hidden;
-    border: 1.5px solid black;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px gray; 
 }
 
 .hero-home img {
@@ -147,6 +148,11 @@ h1 {
     color: white;
     font-size: 5rem;
     font-weight: 600;
+    text-shadow: 
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
 }
 
 .history-container, .contact-container {
@@ -310,7 +316,18 @@ label {
 }
 
 input[type="radio"] {
-    margin-right: 8px;
+    transform: scale(1.5);
+    margin-right: 12px;
+}
+
+#fullname,
+#useremail {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid black;
+    box-sizing: border-box;
 }
 
 button {
