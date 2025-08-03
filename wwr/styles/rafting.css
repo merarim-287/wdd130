@@ -117,6 +117,15 @@ h1 {
     padding: 3rem;
 }
 
+.hero h2 {
+    position: relative; 
+    margin-top: -40rem;
+    background-color: vr(--accent1-color);
+    color: white;
+    padding: 2rem; 
+    font-size: 5rem; 
+}
+
 .history-container, .contact-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
