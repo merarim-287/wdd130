@@ -117,13 +117,20 @@ h1 {
     padding: 3rem;
 }
 
-.hero h2 {
+.hero p {
     position: relative; 
-    margin-top: -40rem;
+    margin-top: -30rem;
     background-color: vr(--accent1-color);
     color: white;
     padding: 2rem; 
     font-size: 5rem; 
+}
+
+.hero a {
+    text-decoration: none;
+    color: white;
+    font-size: 5rem;
+    font-weight: 600;
 }
 
 .history-container, .contact-container {
