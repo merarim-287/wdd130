@@ -73,15 +73,29 @@ nav a:hover {
     color: blue;
 }
 
-.hero, .hero-home {
+.hero {
     position: relative;
     margin-bottom: 2rem;
 }
 
-.hero img, .hero-home img {
+.hero img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.hero-home {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.hero-home img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
 }
 
 h1 {
@@ -118,12 +132,13 @@ h1 {
 }
 
 .hero-home p {
-    position: relative; 
-    margin-top: -30rem;
-    background-color: vr(--accent1-color);
+    position: absolute; 
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
     color: white;
-    padding: 2rem; 
     font-size: 5rem; 
+    z-index: 2;
 }
 
 .hero-home a {
