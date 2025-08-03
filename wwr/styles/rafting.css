@@ -73,12 +73,12 @@ nav a:hover {
     color: blue;
 }
 
-.hero {
+.hero, .hero-home {
     position: relative;
     margin-bottom: 2rem;
 }
 
-.hero img {
+.hero img, .hero-home img {
     display: block;
     width: 100%;
     height: auto;
@@ -117,7 +117,7 @@ h1 {
     padding: 3rem;
 }
 
-.hero p {
+.hero-home p {
     position: relative; 
     margin-top: -30rem;
     background-color: vr(--accent1-color);
@@ -126,7 +126,7 @@ h1 {
     font-size: 5rem; 
 }
 
-.hero a {
+.hero-home a {
     text-decoration: none;
     color: white;
     font-size: 5rem;
