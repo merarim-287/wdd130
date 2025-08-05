@@ -76,6 +76,7 @@ nav a:hover {
 .hero {
     position: relative;
     margin-bottom: 2rem;
+    padding-bottom: 8rem;
 }
 
 .hero img {
@@ -114,11 +115,13 @@ h1 {
 
 .hero article {
     position: relative;
-    margin-top: -18rem;
+    margin-top: -20rem;
+    transform: translateY(0);
     background-color: var(--secondary-color);
     color: black;
     opacity: .8;
     padding: 2rem;
+    z-index: 1;
 }
 
 .hero article img {
@@ -155,13 +158,19 @@ h1 {
     1px 1px 0 black;
 }
 
+main {
+    padding-top: 1px;
+}
+
 .history-container, .contact-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  padding: 1rem;
-  background-color: #fff;
-  margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    align-items: start;
 }
 
 .map {
@@ -191,11 +200,24 @@ h1 {
     font-size: 25px;
 }
 
+.left {
+    grid-column: 1;
+    font-size: 15px;
+    color: black;
+}
+
 .history-container img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  display: block;
+    grid-column: 2; 
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.right {
+    grid-column: 3;
+    font-size: 15px;
+    color: black;
 }
 
 .employees figure img {
@@ -222,10 +244,9 @@ h1 {
 .history-container h2 {
     color: black;
     grid-column: 1 / -1; 
+    text-align: center;
     font-size: 2rem;
-    margin-bottom: .5rem;
-    margin-top: 1rem;
-    margin-left: 45%;
+    margin-bottom: 1rem;
 }
 
 figcaption {
