@@ -101,7 +101,7 @@ nav a:hover {
     object-fit: cover;
 }
 
-h1 {
+.hero h1 {
     position: absolute;  
     top: 4rem;
     width: 100%;
