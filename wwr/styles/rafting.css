@@ -179,15 +179,14 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: .9;
+    opacity: .8;
 }
 
 .hero-background img {
     position: absolute;
     inset: 0;
-    background-color: (0, 0, 0, 0.9);
+    background-color: (0, 0, 0, 0.5);
     z-index: 1;
-    opacity: .9;
 }
 
 .history-container, .contact-container {
