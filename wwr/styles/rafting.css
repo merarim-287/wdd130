@@ -449,7 +449,7 @@ button:hover {
   padding: 2rem;
 }
 
-.hero-background {
+.hero-background {/*background image dimensions*/
   position: absolute;
   top: 0;
   left: 0;
@@ -459,10 +459,10 @@ button:hover {
   z-index: 0;
 }
 
-.overlay {
+.overlay {/*background image opacity and position*/
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.4); /* Adjust opacity here */
+  background-color: rgba(0, 0, 0, 0.8); /*adjust opacity here*/
   z-index: 1;
 }
 
@@ -471,7 +471,7 @@ button:hover {
   display: flex;
   gap: 2rem;
   align-items: flex-start;
-  justify-content: canter;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 2rem;
   z-index: 1;
@@ -528,24 +528,28 @@ button:hover {
     color: white;
 }
 
+
 table {
-  border-collapse: collapse;
-  border: 2px solid rgb(140 140 140);
-  font-family: sans-serif;
-  font-size: 0.8rem;
-  letter-spacing: 1px;
+    background-color: white;
+    color: black;
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-top: -5rem;
 }
 
 caption {
-  caption-side: bottom;
-  padding: 10px;
-  font-weight: 700;
-	 font-style: italic;
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: 700;
+    font-style: italic;
 }
 
 thead,
 tfoot {
-  background-color: rgb(228 240 245);
+    background-color: rgb(228 240 245);
 }
 
 thead th {
@@ -555,23 +559,23 @@ thead th {
 
 th,
 td {
-  border: 1px solid rgb(160 160 160);
-  padding: 8px 10px;
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
 }
 
 td:last-of-type {
-  text-align: center;
+    text-align: center;
 }
 tbody > tr:nth-of-type(even) {
-  background-color: rgb(237 238 242);
+    background-color: rgb(237 238 242);
 }
 
 tfoot th {
-  text-align: right;
+    text-align: right;
 }
 
 tfoot td {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 footer {
