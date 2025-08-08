@@ -411,12 +411,24 @@ input[type="radio"] {
 
 #fullname,
 #useremail {
-    width: 100%;
+    width: 90%;
     height: 45px;
     padding: 10px;
     font-size: 1rem;
     border: 1px solid black;
     box-sizing: border-box;
+}
+
+textarea {
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    resize: vertical;
 }
 
 button {
