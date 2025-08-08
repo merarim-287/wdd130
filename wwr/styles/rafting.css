@@ -630,3 +630,10 @@ footer p {
     text-decoration: none;
     background-color: inherit;
 }
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
