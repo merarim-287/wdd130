@@ -288,7 +288,7 @@ figcaption {
     font-weight: 550;
 }
 
-.adventures { /*about page*/
+.adventures{ /*about page*/
     display: flex; 
     justify-content: space-between;
     align-items: center;
@@ -316,16 +316,19 @@ figcaption {
 .employees { /*contact page */
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
     flex-wrap: wrap;
     background-color: white;
+    padding-top: 2rem;
+    box-shadow: 2px 2px 5px gray;
+    text-align: center;
 }
 
 .employees figure {
     max-width: 220px;
     text-align: center;
-    margin: 3rem 2rem 1rem 2rem;
-    flex: 1 1 200px; 
+    margin: 3rem auto 1rem auto;
+    flex: 0 1 220px; 
     padding: 5px;
     box-shadow: 1px 1px 2px gray;
     border: 1px solid black;
@@ -340,8 +343,10 @@ figcaption {
 }
 
 .employees figure img {
-    margin: 0;
+    margin: 0 auto;
     display: block;
+    max-width: 200px;
+    height: 200px;
 }
 
 .adventures h2 {
@@ -354,9 +359,10 @@ figcaption {
 
 .employees h2 {
     position: relative;
-    left: 35%;
+    left: 50%;
+    bottom: 60%;
     color: black;
-    margin-bottom: 2rem;
+    text-align: center;
     font-size: 30px
 }
 
@@ -616,24 +622,29 @@ footer {
     grid-template-columns: 1fr 1fr;
     align-content: center; 
     background-color: #333;
-    color: #fff;
-    padding: 2px;
+    color: white;
+    padding: 1rem;
     margin-top: 1rem;
 }
 
 footer p {
-    margin-top: 2rem;
+    margin-top: 0;
 }
 
-.socialmedia {
+footer .socialmedia {
     margin: 0;
     text-decoration: none;
     background-color: inherit;
 }
 
+footer a img {
+    border: none;
+    outline: none;
+}
+
 footer a {
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
 }
