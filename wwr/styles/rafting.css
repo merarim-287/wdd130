@@ -239,6 +239,8 @@ main {
     height: auto;
     object-fit: cover;
     display: block;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px gray;
 }
 
 .right { /*history section images on right side */
@@ -276,7 +278,7 @@ main {
     color: black;
     grid-column: 1 / -1; 
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -519,7 +521,7 @@ button:hover {
 }
 
 .info h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     color: white;
     margin-bottom: 1rem;
     display: inline-block;
@@ -546,8 +548,14 @@ button:hover {
 
 .trip-pictures figcaption {
     margin-top: .5rem;
-    font-size: 1rem;
+    font-size: 15px;
     color: white;
+}
+
+.trip-pictures strong {
+    font-size: 1.5rem;
+    white-space: none;
+    padding-bottom: 2rem;
 }
 
 
