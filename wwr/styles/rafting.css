@@ -403,6 +403,7 @@ legend {
 label {
     display: block;
     margin: .75rem;
+    font-weight: 500;
 }
 
 input[type="radio"] {
@@ -567,7 +568,7 @@ button:hover {
 
 .trip-pictures strong {
     font-size: 1.5rem;
-    white-space: none;
+    white-space: nowrap;
     padding-bottom: 2rem;
 }
 
