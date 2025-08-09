@@ -16,6 +16,8 @@
 body {
     font-family: var(--heading-font);
     color: var(--accent2-color);
+    line-height: 1.6;
+    font-size: 1.1rem;
 }
 
 header, main, footer {
